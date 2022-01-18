@@ -1,35 +1,7 @@
-/* Manually compiled by Probably an Asian */
-@font-face {
-	font-family: 'Ubuntu-Mono';
-	font-style: normal;
-	font-weight: 400;
-	font-display: swap;
-	src: url('/fonts/UbuntuMono/UbuntuMono-Regular.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Ubuntu-Mono';
-	font-style: italic;
-	font-weight: 400 ;
-	font-display: swap;
-	src: url('/fonts/UbuntuMono/UbuntuMono-RegularItalic.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Ubuntu-Mono';
-	font-style: normal;
-	font-weight: 700;
-	font-display: swap;
-	src: url('/fonts/UbuntuMono/UbuntuMono-Bold.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Ubuntu-Mono';
-	font-style: italic;
-	font-weight: 700;
-	font-display: swap;
-	src: url('/fonts/UbuntuMono/UbuntuMono-BoldItalic.ttf') format('truetype');
-}
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /* Manually compiled by Probably an Asian */
 @font-face {
 	font-family: 'Roboto';
@@ -126,10 +98,6 @@
 	font-display: swap;
 	src: url('/fonts/Roboto/Roboto-BlackItalic.ttf') format('truetype');
 }
-/* Write your global styles here, in PostCSS syntax */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 /* Manually compiled by Probably an Asian */
 @font-face {
 	font-family: 'Ubuntu';
@@ -201,6 +169,38 @@
 	font-weight: 700;
 	font-display: swap;
 	src: url('/fonts/Ubuntu/Ubuntu-BoldItalic.ttf') format('truetype');
+}
+/* Manually compiled by Probably an Asian */
+@font-face {
+	font-family: 'Ubuntu-Mono';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('/fonts/UbuntuMono/UbuntuMono-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ubuntu-Mono';
+	font-style: italic;
+	font-weight: 400 ;
+	font-display: swap;
+	src: url('/fonts/UbuntuMono/UbuntuMono-RegularItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ubuntu-Mono';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('/fonts/UbuntuMono/UbuntuMono-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ubuntu-Mono';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	src: url('/fonts/UbuntuMono/UbuntuMono-BoldItalic.ttf') format('truetype');
 }
 *,::before,::after{box-sizing:border-box}html{-moz-tab-size:4;-o-tab-size:4;tab-size:4}html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}body{font-family:system-ui,
 		-apple-system, /* Firefox supports this but not yet `system-ui` */
